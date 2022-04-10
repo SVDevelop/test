@@ -1,0 +1,10 @@
+.title {
+    text-align: center; 
+}
+.wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    &__place {
+
+    text-align: center;    }
+}

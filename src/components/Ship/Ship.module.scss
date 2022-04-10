@@ -1,0 +1,10 @@
+.ships {
+    & > * ~ * {
+        margin-top: 5px;
+    }
+}
+
+.ship {
+    border: 1px solid #ccc;
+    border-radius: 6px
+}

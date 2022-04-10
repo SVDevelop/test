@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",
     "target": "es5",
+    "plugins": [{ "name": "typescript-plugin-sass-modules" }],
     "lib": [
       "dom",
       "dom.iterable",
